@@ -1,5 +1,5 @@
 import './style.css'
-import { trainPath } from './trainPath';
+import trainPaths from './trainPath';
 import planePaths from './planePath'
 
 document.querySelector('#app').innerHTML = `
@@ -13,6 +13,6 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
-map.addLayer(trainPath)
+trainPaths.forEach(trainPath => map.addLayer(trainPath))
 
 planePaths.forEach(planePath => map.addLayer(planePath))
