@@ -6,7 +6,7 @@ document.querySelector('#app').innerHTML = `
   <div id="map"></div>
 `
 
-const map = L.map('map').setView([60.189579, 11.105640], 11);
+const map = L.map('map').setView([60.189579, 11.105640], 8);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
