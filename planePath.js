@@ -147,7 +147,7 @@ planeRoutes.forEach(route => {
         "pulseColor": "#FFFFFF",
         "paused": false,
         "reverse": false,
-        "hardwareAccelerated": true
+        "hardwareAccelerated": false
     }))
 })
 
