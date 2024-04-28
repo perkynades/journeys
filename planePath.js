@@ -150,7 +150,7 @@ planeRoutes.forEach(route => {
         "weight": 5,
         "color": "#FF0004",
         "pulseColor": "#FFFFFF",
-        "paused": false,
+        "paused": true,
         "reverse": false,
         "hardwareAccelerated": false
     }))

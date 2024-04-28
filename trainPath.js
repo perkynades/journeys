@@ -202,7 +202,7 @@ const trainRoutes = [
     ],
     // Oslo S - Stockholm
     [
-        [59.91117127491614, 10.752508068177994]
+        [59.91117127491614, 10.752508068177994],
         [60.187515160383164, 12.003754438569404],
         [59.65373409443165, 12.591114908200995],
         [59.37818985422343, 13.499100630641577],
@@ -226,7 +226,7 @@ trainRoutes.forEach(route => {
         "weight": 5,
         "color": "#0000FF",
         "pulseColor": "#FFFFFF",
-        "paused": false,
+        "paused": true,
         "reverse": false,
         "hardwareAccelerated": false
     }))
