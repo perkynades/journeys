@@ -351,9 +351,9 @@ trainRoutes.forEach(route => {
         "weight": 5,
         "color": "#0000FF",
         "pulseColor": "#FFFFFF",
-        "paused": true,
+        "paused": false,
         "reverse": false,
-        "hardwareAccelerated": false
+        "hardwareAccelerated": true
     }))
 })
 
